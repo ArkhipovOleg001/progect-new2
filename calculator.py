@@ -1,6 +1,6 @@
 A = int (input ('Введите первое значение: )
 B = int (input ('Введите второе значение: )
-znak = input ('Введите + или -:)
+znak = input ('Введите + или - или *:)
 
 if znak == '-':
     C = A - B
@@ -9,3 +9,8 @@ if znak == '-':
 if znak == '+':
     C = A + B
     print ('Ответ: ')
+    
+if znak == '*':
+    C = A * B
+    print ('Ответ: ')
+
